@@ -13,8 +13,8 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 </head>
     
 <body class="Media">
@@ -67,6 +67,7 @@
         <source src="video/surfer.mp4" type="video/mp4">
         Your browswer does not support HTML5 video.
         </video>
+        
     <div class="content">
         <h3>GoPro: Top 10 Surf Moments</h3>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis presqueris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
@@ -114,12 +115,11 @@
             <p>"If in doubt, paddle out." ~ Nat Young</p>
         <div>
             <img src="images/slideshow-03.jpg">
-            <p>"If you're having a bad day, catch a wavae." ~ Frosty Hesson</p>
+            <p>"If you're having a bad day, catch a wave." ~ Frosty Hesson</p>
         </div>
      </div>
 </div>
         
-        <div>
         <h2>Carousel</h2>
         <div class="row">
             <div class="carousel">
@@ -141,7 +141,7 @@
             </div>
             <div>
                 <img src="images/carousel-05.jpg">
-                <p>"Surfing is not asomething you retre from."<br>~ SurfCareers.com</p>
+                <p>"Surfing is not something you retire from."<br>~ SurfCareers.com</p>
             </div>
             </div>
         </div>
@@ -169,7 +169,7 @@
           });
           $(".carousel").slick({
               dots: false,
-              infinite: false,
+              infinite: true,
               slidesToShow: 4,
               slidesToScroll: 1,
               responsive: [
