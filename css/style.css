@@ -540,7 +540,7 @@ td:last-child {
 .expanding-grid h6 {
     margin: 0;
 }
-.column {
+expanding-grid .column {
     text-align: center;
     font-size: 25px;
     cursor: pointer;
